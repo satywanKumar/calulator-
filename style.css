@@ -1,0 +1,95 @@
+body
+{
+    background-color: rgb(214,214,214);
+}
+
+.container
+{
+    width: 250px;
+    height: 400px;
+    /* background-color: royalblue; */
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff; 
+    padding: 10px;
+   
+}
+
+.display
+{
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 86%;
+    background: transparent;
+    box-shadow:inset 2px 2px 5px #babeec, inset -5px -5px 10px #ffffff;
+    text-align: right;
+    font-size:18px ;
+}
+.button
+{
+    width: 45px;
+    height: 45px;
+    margin: 15px 0 0 11px; 
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgb(214,214,214);
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    display: inline-block;
+
+}
+
+.button-o
+{
+    width: 45px;
+    height: 45px;
+    margin: 15px 0 0 11px; 
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgb(214,214,214);
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+    display: inline-block;
+
+}
+
+
+
+.button:active
+{
+    box-shadow: inset 1px 1px 2px #babeec,inset -1px -1px 2px #ffffff;
+}
+
+.button-o:active
+{
+    box-shadow: inset 1px 1px 2px #babeec,inset -1px -1px 2px #ffffff;
+}
+
+
+.button:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.button-o:hover
+{
+    background-color: teal;
+    color: white;
+}
+
+
+.button-box
+{
+   
+   
+    margin: auto;
+}
